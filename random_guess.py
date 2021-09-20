@@ -11,7 +11,7 @@ def main():
     # this function checks if the random number is correct
     number = random.randint(0, 50)
     # a number between 0 and 50
-    
+
     # input
     guessed_number = int(input("Enter the number between 0 and 50: "))
     print("")
@@ -21,8 +21,7 @@ def main():
         print("Correct")
     else:
         print("wrong, try again.")
-        print("")
-        print("Done")
+        print("\nDone")
 
 
 if __name__ == "__main__":
