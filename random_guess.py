@@ -20,8 +20,9 @@ def main():
     if guessed_number == number:
         print("Correct")
     else:
-        print("wrong, try again.")
-        print("\nDone")
+        print("Wrong, the random number is {}.".format(number))
+
+    print("\nDone.")
 
 
 if __name__ == "__main__":
